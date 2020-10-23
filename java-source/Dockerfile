@@ -6,7 +6,7 @@ From tomcat:latest
 MAINTAINER "Dattu Chillal - DockerProjetc" 
 
 # copy war file on to container 
-ADD **/*.war	 /usr/local/tomcat/webapps
+ADD **/*.war /usr/local/tomcat/webapps
 
-EXPOSE 8080
+EXPOSE 9090
 CMD ["catalina.sh", "run"]
