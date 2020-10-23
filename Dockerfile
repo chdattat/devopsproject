@@ -8,7 +8,7 @@ MAINTAINER "Dattu Chillal - DockerProjetc"
 WORKDIR /var/lib/jenkins/
 
 # copy war file on to container 
-ADD /target/*.iwayQApp-1.0-RELEASE.war /usr/local/tomcat/webapps
+ADD **/*.war /usr/local/tomcat/webapps
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
