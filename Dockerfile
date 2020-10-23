@@ -5,7 +5,7 @@ WORKDIR /usr/local/tomcat/webapps
 # Maintainer
 MAINTAINER "Dattu Chillal - DockerProjetc" 
 
-WORKDIR /root
+WORKDIR /var/lib/jenkins/
 
 # copy war file on to container 
 ADD /target/*.iwayQApp-1.0-RELEASE.war /usr/local/tomcat/webapps
