@@ -1,6 +1,6 @@
 # Create Custom Docker Image
 # Pull tomcat latest image from dockerhub 
-From tomcat:latest
+From tomcat:8.0
 
 # Maintainer
 MAINTAINER "Dattu Chillal - DockerProjetc" 
